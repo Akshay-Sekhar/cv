@@ -1,0 +1,117 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+}
+
+.parent {
+    width: 80%;
+    min-height: 500px;
+    display: grid;
+    grid-template-columns: 0.25fr 1fr;
+    grid-template-rows: 1fr 1.5fr;
+    grid-gap: 10px;
+    background-color: white;
+    padding: 10px;        
+}
+
+.child {
+    background-color: white;
+    color: blue;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 10px lightgray;
+       
+    
+}
+
+.parent .child:nth-child(1) {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.image {
+    position: relative;
+}
+
+
+.image img {
+    width: 100%;
+    height: 300px;
+
+}
+
+.image h2 {
+    position: absolute;
+    bottom: 0px;
+    left: 3px;
+    color: white;
+    
+}
+
+.details ul {
+    list-style: none;
+    color: blue;
+    line-height: 30px; 
+    padding-left: 0;   
+}
+
+.details ul li i {
+    color: blue;
+}
+
+   
+
+.skills ul {
+    font-size: 20px;
+    color: blue;
+    list-style: none;
+    padding-left: 0;
+}
+
+.skills ul li i {
+    color: blue;
+}
+
+.summary ul {
+    list-style: none;
+    font-size: 20px;
+}
+
+.data {
+    line-height: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 10px;
+}
+
+.work ul {
+    font-size: 20px;
+    color: blue;
+    list-style: none;
+}
+
+.job-one {
+    text-align: center;
+}
+
+.period-one ul li {
+    list-style: none;
+    font-size: 18px;
+}
+
+.job-two {
+    text-align: center;
+}
+
+.role-one {
+    margin-left: 70px;
+    line-height: 30px;
+}
+
+.role-two {
+    margin-left: 70px;
+    line-height: 30px;
+}
